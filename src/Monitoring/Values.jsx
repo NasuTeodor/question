@@ -184,7 +184,7 @@ export const ETHER_TYPE_HEX = {
     '88E7': 'Provider Backbone Bridges(PBB)(IEEE 802.1ah)',
     '88F7': 'Precision Time Protocol(PTP) over IEEE 802.3 Ethernet',
     '88F8': 'NC - SI',
-    '88FB': 'Parallel Redundancy Protocol(PRP')
+    '88FB': 'Parallel Redundancy Protocol(PRP)',
     '8902': 'IEEE 802.1ag Connectivity Fault Management(CFM) Protocol / ITU - T Recommendation Y.1731(OAM)',
     '8906': 'Fibre Channel over Ethernet(FCoE)',
     '8914': 'FCoE Initialization Protocol',

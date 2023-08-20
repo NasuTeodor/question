@@ -8,7 +8,7 @@ export default function Interface() {
 
     const handlePacket = (socket_data) => {
         let packet = JSON.parse(socket_data.data)
-        console.log(JSON.stringify(packet))
+        console.log(packet)
     }
 
     useEffect(() => {

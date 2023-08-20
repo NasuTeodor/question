@@ -45,12 +45,8 @@ export const SOCKET_CONNECT_STATES = {
 //        "len": 119
 //     },
 //     "payload": {
-//        "dhost": {
-//           "addr": [121, 432, 294, 120, 0, 265]
-//        },
-//        "shost": {
-//           "addr": [543, 132, 653, 321, 543, 430]
-//        },
+//        "dhost": { "addr": [121, 432, 294, 120, 0, 265] },
+//        "shost": { "addr": [543, 132, 653, 321, 543, 430] },
 //        "ethertype": 2048,
 //        "vlan": null,
 //        "payload": {
@@ -68,12 +64,8 @@ export const SOCKET_CONNECT_STATES = {
 //           "ttl": 255,
 //           "protocol": 17,
 //           "headerChecksum": 46249,
-//           "saddr": {
-//              "addr": [192, 168, 0, 107]
-//           },
-//           "daddr": {
-//              "addr": [224, 0, 0, 251]
-//           },
+//           "saddr": { "addr": [192, 168, 0, 107] },
+//           "daddr": { "addr": [224, 0, 0, 251] },
 //           "payload": {
 //              "sport": 5353,
 //              "dport": 5353,

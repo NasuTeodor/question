@@ -22,18 +22,21 @@ class PacketDetailedParser {
         ether_type: undefined,
     }
     //PAYLOAD DATA
+    //MAY BE DIFFERENT BASED ON PROTOCOL
+    //SAVE GENERAL DATA or more idk you do yours
     PAYLOAD_DATA = {
-        identification: undefined,
+        identification: undefined,      //not always
         version: undefined,
         protocol: undefined,
-        ttl: undefined,
+        ttl: undefined,                 //not always
         source_address: undefined,
         destination_address: undefined,
-        header_length: undefined,
-        header_checksum: undefined,
-        payload_length: undefined,
-        payload_checksum: undefined,
+        header_length: undefined,       //not always
+        header_checksum: undefined,     //not always
+        payload_length: undefined,      //not always
+        payload_checksum: undefined,    //not always
         payload: {
+            //ADD ARP DATA?
             source_port: undefined,
             destination_port: undefined,
             header_length: undefined,
@@ -63,7 +66,7 @@ class PacketDetailedParser {
     }
 
     constructor(packet) {
-
+        
     }
 
 }

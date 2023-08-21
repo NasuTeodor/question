@@ -6,9 +6,12 @@ export default function Interface() {
     const [socket, setSocket] = useState('')
     const [packet, setPacket] = useState('')
 
+    const [packetStream, setPacketStream] = useState({})
+
     const handlePacket = (socket_data) => {
         let packet = JSON.parse(socket_data.data)
         console.log(packet)
+        //procces packets with general parser
     }
 
     useEffect(() => {
@@ -24,16 +27,10 @@ export default function Interface() {
 
     return (
         <>
-            {packet.length == 'mama' &&
+            {
                 < div >
-                    <div>Link Type: {packet.link_type}</div>
+                    {/* <div>Link Type: {packet.link_type}</div> */}
                     <div>Payload:<br />
-                        {
-                            // console.log(Object.keys(packet.payload))
-                            Object.keys(packet.payload).forEach((key) => {
-                                return (<div>{key}:{packet.payload[key]}<br /></div>)
-                            })
-                        }
                     </div>
                 </div >
             }

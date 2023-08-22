@@ -9,7 +9,8 @@ export default function Interface() {
     const [packetStream, setPacketStream] = useState({})
 
     const handlePacket = (socket_data) => {
-        let packet = JSON.parse(socket_data.data)
+        // let packet = JSON.parse(socket_data.data)
+        let packet = socket_data.data
         console.log(packet)
         //procces packets with general parser
     }

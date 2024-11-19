@@ -11,6 +11,7 @@ export default function Interface() {
     const handlePacket = (socket_data) => {
         // let packet = JSON.parse(socket_data.data)
         let packet = socket_data.data
+        packet = JSON.parse(packet)
         console.log(packet)
         //procces packets with general parser
     }
